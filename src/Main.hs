@@ -154,5 +154,3 @@ a &&^ f = a &&& arr f
 
 both :: (Arrow a) => a b c -> a (b, b) (c, c)
 both a = a *** a
-
--- Fixa glider genom marken
